@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hom_bg" >
+
+    <Spinner
+        android:id="@+id/spinner_period"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner_sem"
+        android:layout_below="@+id/spinner_sem"
+        android:background="#ffffff"
+        android:alpha=".6"
+        android:layout_marginTop="18dp" />
+
+    <Spinner
+        android:id="@+id/spinner_sem"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner_dept"
+        android:layout_below="@+id/spinner_dept"
+        android:background="#ffffff"
+        android:alpha=".6"
+        android:layout_marginTop="18dp" />
+
+    <Button
+        android:id="@+id/button_cont"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/spinner_period"
+        android:layout_below="@+id/spinner_period"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_img"
+        android:text="Continue" />
+
+    <Spinner
+        android:id="@+id/spinner_dept"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textdpt"
+        android:layout_marginTop="124dp"
+        android:alpha=".6"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/Textsem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner_sem"
+        android:layout_below="@+id/spinner_dept"
+        android:text="Select Semester :"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Textperiod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner_period"
+        android:layout_below="@+id/spinner_sem"
+        android:text="Select Period:"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textdpt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner_dept"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="102dp"
+        android:text="Select Department :"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/button_img"
+        android:text="Logout"
+        android:onClick="logOutfunction"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

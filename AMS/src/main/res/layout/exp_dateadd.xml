@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/mtssss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="152dp"
+        android:text="Add or Update Attendance Expiry Date "
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edit_expdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mtssss"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="Date (yyyyy-mm-dd) " 
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15dp">
+
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spinn_exdatesem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edit_expdate"
+        android:layout_alignRight="@+id/edit_expdate"
+        android:layout_below="@+id/edit_expdate"
+        android:layout_marginTop="38dp" />
+
+    <Button
+        android:id="@+id/bexpup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinn_exdatesem"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Update" />
+
+</RelativeLayout>

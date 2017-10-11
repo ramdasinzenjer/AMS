@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/hom_bg" >
+
+    <ListView
+        android:id="@+id/outputList"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_above="@+id/button_attndance"
+        android:background="#ffffff"
+        android:alpha=".6"
+        android:divider="#0823f4" />
+
+    <Button
+        android:id="@+id/button_attndance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="Submit"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/outputList"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="18dp"
+     
+         android:textColor="#ffffff"
+        android:textStyle="bold" 
+        android:text="Date :"
+        android:textSize="15dp"
+         />
+
+    <Button
+        android:id="@+id/bun_daily"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/outputList"
+        android:layout_alignParentRight="true"
+        android:text="Update Day" />
+
+</RelativeLayout>

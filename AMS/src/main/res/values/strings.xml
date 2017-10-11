@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AMS</string>
+    
+    <string-array name="usertype">
+        <item>Teacher</item>
+        <item>Student</item>
+        <item>Admin</item>
+	</string-array>
+	<string-array name="dept">
+        <item>Electronics</item>
+        <item>Computer Science</item>
+        <item>Architecture</item>
+        <item>Information Technology</item>
+
+	</string-array>
+	<string-array name="semester">
+        <item>S1</item>
+        <item>S2</item>
+        <item>S3</item>
+        <item>S4</item>
+        <item>S5</item>
+        <item>S6</item>
+	</string-array>
+	<string-array name="month">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+          <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+	</string-array>
+	<string-array name="period">
+        <item>1st_hour</item>
+        <item>2nd_hour</item>
+        <item>3rd_hour</item>
+        <item>4th_hour</item>
+        <item>5th_hour</item>
+ 
+    </string-array>
+
+</resources>

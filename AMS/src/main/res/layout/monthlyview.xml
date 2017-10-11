@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hom_bg" >
+
+    <TextView
+        android:id="@+id/tstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:text="Name"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tnworking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tstname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="No. of working days"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tnpdays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tnworking"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="No. of full day present "
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tnhdays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tnpdays"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="No. of half day present "
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tnadays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tnhdays"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="No. of absent days "
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tattper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tnadays"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Monthly Attendance percentage"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btsavetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tattper"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:text="Save Attendance as Excell File" />
+
+    <TextView
+        android:id="@+id/mtttt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btsavetext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="" />
+	
+</RelativeLayout>

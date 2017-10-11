@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hom_bg" >
+
+    <Button
+        android:id="@+id/button_mark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:text="Mark Attendance"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:background="@drawable/button_img" />
+
+    <Button
+        android:id="@+id/button_percentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_img"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="Monthly Attendance"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button0124"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="26dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/button_img"
+        android:onClick="logOutfunction"
+        android:text="Logout"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_mark"
+        android:layout_below="@+id/button_mark"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/button_img"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="View Attendance"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</RelativeLayout>

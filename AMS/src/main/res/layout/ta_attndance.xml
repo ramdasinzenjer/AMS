@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hom_bg" >
+
+    <ListView
+        android:id="@+id/listView_attendanceabc"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/textView_absentabc"
+        android:layout_toRightOf="@+id/textView_presentabc"
+        android:alpha=".80"
+        android:background="#eeeeee"
+        android:descendantFocusability="blocksDescendants" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView_presentabc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/listView_attendanceabc"
+        android:layout_marginTop="59dp"
+        android:text="Present \nHrs:" 
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView_absentabc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_alignTop="@+id/listView_attendanceabc"
+        android:layout_marginTop="59dp"
+        android:layout_alignParentRight="true"
+        android:text="Absent \nHrs:" 
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_tv123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="NAME :"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</RelativeLayout>

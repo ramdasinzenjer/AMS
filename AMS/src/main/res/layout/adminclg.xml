@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:padding="10dp" >
+
+    <Button
+        android:id="@+id/bt_vastaff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bt_vastud"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/bt_vastud"
+        android:layout_marginTop="186dp"
+        android:background="@drawable/button_img"
+        android:padding="10dp"
+        android:text="View and Approve Staffs"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_vastud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_vastaff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/button_img"
+        android:padding="10dp"
+        android:text="View and Approve Students"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_update_attendancedate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_vastud"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/button_img"
+        android:padding="10dp"
+        android:text="Update Exp Date"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button01222"
+       android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="27dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/button_img"
+        android:padding="10dp"
+        android:text="Logout"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:onClick="logOutfunction" />
+
+</RelativeLayout>

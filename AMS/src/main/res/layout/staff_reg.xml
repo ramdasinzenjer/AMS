@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hom_bg" >
+
+    <EditText
+        android:id="@+id/editText_stfcontact"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/editText_stfnam"
+        android:layout_below="@+id/editText_stfnam"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="Contact Number"
+        android:inputType="number"
+        android:textColorHint="#ffffff" />
+    
+    <EditText
+        android:id="@+id/editText_stfmail"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/editText_stfcontact"
+        android:layout_below="@+id/editText_stfcontact"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="Email ID"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#ffffff" />
+    
+    <EditText
+        android:id="@+id/editText_stfid"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/editText_stfmail"
+        android:layout_below="@+id/editText_stfmail"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="Staff Id"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#ffffff" />
+
+   	<Spinner
+   	    android:id="@+id/spinner_stfdeptst"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="40dp"
+   	    android:layout_alignLeft="@+id/editText_stfid"
+   	    android:layout_alignRight="@+id/editText_stfid"
+   	    android:layout_below="@+id/editText_stfid"
+   	    android:layout_marginTop="16dp"
+   	    android:alpha=".65"
+   	    android:background="#f5d1c3" />
+
+   	<EditText
+   	    android:id="@+id/editText_stfpassword"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="40dp"
+   	    android:layout_alignRight="@+id/spinner_stfdeptst"
+   	    android:layout_below="@+id/spinner_stfdeptst"
+   	    android:layout_marginTop="18dp"
+   	    android:ems="10"
+   	    android:hint="Password"
+   	    android:inputType="textPassword"
+   	    android:textColorHint="#ffffff" />
+
+   	<EditText
+   	    android:id="@+id/editText_stfnam"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="40dp"
+   	    android:layout_alignParentTop="true"
+   	    android:layout_centerHorizontal="true"
+   	    android:layout_marginTop="44dp"
+   	    android:ems="10"
+   	    android:hint="Staff Name"
+   	    android:inputType="textPersonName"
+   	    android:textColorHint="#ffffff" >
+
+   	    <requestFocus />
+   	</EditText>
+
+   	<Button
+   	    android:id="@+id/bt_stfrgt"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="30dp"
+   	    android:layout_alignLeft="@+id/spinner_stfdeptst"
+   	    android:layout_below="@+id/editText_stfpassword"
+   	    android:layout_marginTop="16dp"
+   	    android:background="@drawable/button_img"
+   	    android:text="Register Now"
+   	    android:textColor="#ffffff" />
+    
+</RelativeLayout>

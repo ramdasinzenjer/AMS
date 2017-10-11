@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hom_bg" >
+
+    <Spinner
+        android:id="@+id/spinner_Depart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner_Month"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/spinner_Month"
+        android:layout_marginTop="34dp" />
+
+    <Spinner
+        android:id="@+id/spinner_Sem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner_Depart"
+        android:layout_alignRight="@+id/spinner_Month"
+        android:layout_below="@+id/spinner_Depart"
+        android:layout_marginTop="19dp" />
+
+    <Spinner
+        android:id="@+id/spinner_Sname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner_Month"
+        android:layout_alignRight="@+id/spinner_Month"
+        android:layout_below="@+id/spinner_Sem"
+        android:layout_marginTop="17dp" />
+
+    <Spinner
+        android:id="@+id/spinner_Month"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_Sname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/button_monthlyat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner_Month"
+        android:layout_below="@+id/spinner_Month"
+        android:layout_marginTop="28dp"
+        android:text="Continue "
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</RelativeLayout>
