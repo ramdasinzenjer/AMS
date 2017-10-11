@@ -31,7 +31,7 @@ public interface Constants {
   
 	// example 
     String EXAMPLE_URL=BASE_URL+"example.php?";
-    
+    String aa = "0";
 
     //Details
     String SMSSERVICE="telSms";
