@@ -19,6 +19,6 @@ android {
 }
 
 dependencies {
-    compile files('libs/android-support-v4.jar')
+
     compile 'com.android.support:appcompat-v7:25.0.1'
 }

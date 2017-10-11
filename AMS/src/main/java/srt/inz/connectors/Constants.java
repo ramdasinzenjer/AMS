@@ -8,7 +8,7 @@ public interface Constants {
     String REGISTER_MESSAGE="Register in...";
 
     //Urls
-    String BASE_URL="http://192.168.1.18/ams/";
+    String BASE_URL="https://avantzekiel.000webhostapp.com/Ams/";
         
     String LOGIN_URL=BASE_URL+"login.php?";   
     String STREGISTER_URL=BASE_URL+"studreg.php?";
